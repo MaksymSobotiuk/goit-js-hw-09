@@ -22,3 +22,22 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.gallery {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  justify-content: center;
+  padding-left: 155px;
+  padding-right: 155px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 300px;
+}
